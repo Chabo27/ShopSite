@@ -1,6 +1,6 @@
-# Off-Grid & Bushcraft Equipment Shop
+# WildernessHub
 
-This project is a simple MERN stack web shop.
+WildernessHub is a full MEAN stack web shop for **Off-Grid & Bushcraft Equipment**.
 
 ## Setup
 
@@ -8,7 +8,7 @@ This project is a simple MERN stack web shop.
 ```bash
 cd backend
 npm install
-npm run seed    # optional, insert sample products
+npm run seed    # insert sample products
 npm run dev     # starts Express server on port 5000
 ```
 
@@ -16,7 +16,7 @@ npm run dev     # starts Express server on port 5000
 ```bash
 cd frontend
 npm install
-npm run dev     # starts Vite dev server on port 5173
+ng serve        # starts Angular dev server on port 4200
 ```
 
-Both servers must run concurrently for full functionality. The frontend proxies API requests to `http://localhost:5000`.
+Both servers must run concurrently. The Angular app proxies API requests to `http://localhost:5000`.

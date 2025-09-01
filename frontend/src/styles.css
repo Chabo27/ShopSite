@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles for WildernessHub */
+body { @apply text-gray-800; }
