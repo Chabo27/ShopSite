@@ -1,3 +1,4 @@
+// Express server for WildernessHub - Off-Grid & Bushcraft Equipment store
 import express from 'express';
 import cors from 'cors';
 import { connectDB } from './config.js';
